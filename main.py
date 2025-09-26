@@ -1,11 +1,7 @@
 import sys  
 import warnings
 from typing import Union
-from PyQt5.QtWidgets import (
-    QApplication, QWidget, QLabel, QVBoxLayout, QHBoxLayout,
-    QFrame, QGridLayout, QPushButton, QStackedLayout,
-    QGraphicsDropShadowEffect
-)
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QHBoxLayout, QFrame, QGridLayout, QPushButton, QStackedLayout, QGraphicsDropShadowEffect
 from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtGui import QFont, QIcon
 from core import MyStatInterface, parse_pagination_meta
@@ -300,4 +296,5 @@ if __name__ == "__main__":
     window = MyStatApp()
     window.show()
     sys.exit(app.exec_())
+
 
